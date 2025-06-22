@@ -1,0 +1,54 @@
+{
+  "week_start": "2025-06-17",
+  "meals": {
+    "breakfast": {
+      "B1": "Oats Protein Shake",
+      "B2_options": {
+        "Monday": "Omelette with Toast",
+        "Tuesday": "Poha",
+        "Wednesday": "Bread Omelette",
+        "Thursday": "Bombay Sandwich",
+        "Friday": "Overnight oats",
+        "Saturday": "Peanut butter, Banana & Toast"
+      }
+    },
+    "schedule": {
+      "Monday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Omelette with Toast",
+        "lunch": "Bhindi Dal + Roti",
+        "dinner": "Chicken curry + Chawal"
+      },
+      "Tuesday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Poha",
+        "lunch": "Chole Chawal",
+        "dinner": "Paneer Chilla"
+      },
+      "Wednesday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Bread Omelette",
+        "lunch": "Methi Paratha",
+        "dinner": "Prawn Curry + Rice"
+      },
+      "Thursday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Bombay Sandwich",
+        "lunch": "Matar Paneer + Roti",
+        "dinner": "Idli + Sambar"
+      },
+      "Friday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Peanut butter, Banana & Toast",
+        "lunch": "Mixed Veg, Dal + Roti",
+        "dinner": "Chicken Noodles"
+      },
+      "Saturday": {
+        "your_breakfast": "B1",
+        "wife_breakfast": "Overnight oats",
+        "lunch": "Prawn + Pineapple Salad",
+        "dinner": "Dal + Rice + Beans"
+      }
+    }
+  }
+}
