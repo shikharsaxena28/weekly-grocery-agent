@@ -3,6 +3,7 @@ import openai
 import json
 import yagmail
 import requests
+from openai import OpenAI
 from datetime import date
 
 # --- Load Secrets ---
@@ -31,13 +32,13 @@ def generate_meal_summary_and_next_plan(data):
     Respond in structured JSON with keys: summary, next_plan, grocery_list.
     """
 
-    response = openai.ChatCompletion.create(
+    client = openai.OpenAI()
+    response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7
     )
-
-    return json.loads(response.choices[0].message.content)
+    generated_text = response.choices[0].message.content
 
 # --- Update meals.json on GitHub ---
 def update_meals_json_on_github(new_schedule):
